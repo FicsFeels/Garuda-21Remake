@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../home/Image1/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1.5%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: #d32f2f solid 1px;
+}
+.navbar .nav-extra{
+    align-items: center;
+    display: flex;
+}
+
+#hamburger-menu{
+    color: black;
+    display: inline-block;
+}
+.navbar .nav-extra img{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+}
+.navbar .nav-side{
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 35vh;
+    height: 100vh;
+    background: white;
+    transition: 0.5s;
+    border-top: #d32f2f solid 1px;
+}
+      
+.navbar .nav-side.active{
+    left: 0;
+}
+.navbar .nav-side a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.navbar .nav-side a.active{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #d32f2f;
+    border-radius: 5px;
+}
+.navbar .nav-side a.active:hover{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #d32f2f;
+    border-radius: 5px;
+}
+.navbar .nav-side a:hover{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.navbar .navbar-nav h1{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar .navbar-nav .cta{
+    padding: 9px 15px;
+    background-color:#d32f2f;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+.navbar .navbar-nav .cta:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+.box{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+h1.judul{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.create {
+    background-color: #45a049;
+    text-decoration: none;
+    border: black 1px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 8px;
+    align-items: center;
+    color: white;
+    margin-left: 78vw;
+    margin-top: 25vh;
+}
+table {
+    background-color: rgb(237, 237, 237);
+    color: #2e733d;
+    border-collapse: collapse;
+    width: 75vw;
+    height:auto;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+table, th, td {
+    border: 1px solid #999;
+    padding: 8px 20px;
+}
+tr{
+    text-align: center;
+}
+.read table tbody tr td.actions .edit, .read table tbody tr td.actions .trash {
+    display: inline-flex;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 12px;
+}
+.read table tbody tr td.actions .trash {
+    background-color: #b73737;
+}
+.read table tbody tr td.actions .trash:hover {
+    background-color: #a33131;
+}
+.read table tbody tr td.actions .edit {
+    background-color: #37afb7;
+}
+.read table tbody tr td.actions .edit:hover {
+    background-color: #319ca3;
+}
+.Judul{
+    text-align: center;
+    margin-top: 10px;
+}

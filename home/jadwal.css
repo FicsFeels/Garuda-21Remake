@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../home/Image1/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1.5%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: #d32f2f solid 1px;
+}
+.navbar .nav-extra{
+    align-items: center;
+    display: flex;
+}
+
+#hamburger-menu{
+    color: black;
+    display: inline-block;
+}
+.navbar .nav-extra img{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+}
+.navbar .nav-side{
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 35vh;
+    height: 100vh;
+    background: white;
+    transition: 0.5s;
+    border-top: #d32f2f solid 1px;
+}
+      
+.navbar .nav-side.active{
+    left: 0;
+}
+.navbar .nav-side a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.navbar .nav-side a.active{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #d32f2f;
+    border-radius: 5px;
+}
+.navbar .nav-side a.active:hover{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #d32f2f;
+    border-radius: 5px;
+}
+.navbar .nav-side a:hover{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.navbar .navbar-nav h1{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar .navbar-nav .cta{
+    padding: 9px 15px;
+    background-color:#d32f2f;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+.navbar .navbar-nav .cta:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+.box{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+h1.judul{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+table {
+    background-color: rgb(237, 237, 237);
+    opacity: 0.8;
+    color: #2e733d;
+    border-collapse: collapse;
+    width: 70vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 30px;
+ 
+ 
+  }
+
+  table, th, td {
+    border: 1px solid #2e733d;
+    vertical-align: middle;
+  }
+
+  table td, table th {
+    padding: 10px;
+  }
+  tr{
+    text-align: center;
+  }

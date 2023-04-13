@@ -1,0 +1,62 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1.5%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.navbar img{
+    height: 50px;
+    width: auto;
+}
+.navbar .navbar-nav a{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar .navbar-nav .cta{
+    padding: 9px 15px;
+    background-color:#d32f2f;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 6px;
+    color: white;
+}
+.navbar .navbar-nav .cta:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 22rem;
+    align-items: center;
+    background-image: url(../Login/Image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center;
+    left: 0;
+    right: 0;
+    
+}
+.hero img{
+    width: 350px;
+    height: auto;
+    justify-content: right;
+}
+.hero .text h1{
+   margin-left: 250px;
+   font-size: 55px;
+   padding: 0;
+}

@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1.5%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: #d32f2f solid 1px;
+}
+.navbar .nav-extra{
+    align-items: center;
+    display: flex;
+}
+
+#hamburger-menu{
+    color: black;
+    display: inline-block;
+}
+.navbar .nav-extra img{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+}
+.navbar .nav-side{
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 35vh;
+    height: 100vh;
+    background: white;
+    transition: 0.5s;
+    border-top: #d32f2f solid 1px;
+}
+      
+.navbar .nav-side.active{
+    left: 0;
+}
+.navbar .nav-side a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.navbar .nav-side a.active{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #d32f2f;
+    border-radius: 5px;
+}
+.navbar .nav-side a.active:hover{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #d32f2f;
+    border-radius: 5px;
+}
+.navbar .nav-side a:hover{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.navbar .navbar-nav h1{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar .navbar-nav .cta{
+    padding: 9px 15px;
+    background-color:#d32f2f;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+.navbar .navbar-nav .cta:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+.parallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../home/Image1/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center;
+    left: 0;
+    right: 0;
+}
+.parallax.title{
+    display: block;
+    justify-content: center;
+}
+#text{
+    font-size: 80px;
+    color:rgb(32, 116, 52);
+}
+#text span{
+    font-size: 80px;
+    color:rgb(17, 205, 0);
+}
+#sub{
+    font-size: 2.5em;
+    color:rgb(32, 116, 52);
+    text-align: center;
+}
+.sec{
+    background: #003329;
+    padding: 100px;
+
+}
+.sec h2{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sec .boxes{
+    display: flex;
+}
+.box{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 200px;
+	width: 335px;
+	padding: 20px 35px;
+	background: rgb(232, 232, 232);
+	border-radius: 20px;
+	margin: 15px;
+	overflow: hidden;
+	text-align: center;
+    text-decoration: none;
+}
+.boxes .i{
+    width: 30px;
+    height: auto;
+	display: block;
+	text-align: center;
+	margin: 25px 15px 25px 0;
+	color: rgb(32, 116, 52);
+}
+.boxes a{
+    text-decoration: none;
+    display: block;
+    font-size: 1.5em;
+}
+.tentang{
+    background: #006c56;
+    padding: 100px;
+}
+.tentang h2{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.tentang p{
+    font-size: 1.3em;
+    color: white;
+}
